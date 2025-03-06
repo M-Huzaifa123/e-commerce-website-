@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+
+.img {
+    width: 85%; /* Set width to 90% */
+    height: 529px;
+    object-fit: cover; /* Ensures images cover the entire area without distortion */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the margin auto works */
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.social-links .nav-link {
+    font-size: 1.25rem; /* Increase icon size */
+    margin-left: 10px; /* Add spacing between icons */
+}
+
+.carousel-control-prev {
+    left: 5%; /* Position the previous button inside the image */
+}
+
+.carousel-control-next {
+    right: 5%; /* Position the next button inside the image */
+}
+
+/* Style for carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background to the icons */
+    border-radius: 50%; /* Make the icons circular */
+    padding: 20px; /* Add padding to the icons */
+}
+
+.carousel-container{
+    margin-top: 80px;
+    /* border: 3px solid grey; */
+}
+
+.products{
+    margin-top: 100px;
+}
+
+.products h1{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+
+.card{
+    padding: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .img {
+        width: 95%;
+    }
+
+    form{
+        position: relative;
+        top: 10px;
+    }
+}
+
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 40px 0;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
